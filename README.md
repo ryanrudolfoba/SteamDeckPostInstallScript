@@ -55,6 +55,15 @@ The RTSS OSD will have a horizontal layout for less clutter similar to SteamOS 3
 ### Screenshot for reference
 ![image](https://user-images.githubusercontent.com/98122529/201536541-5374331c-e4de-4da0-9169-f8e21e243c3f.png)
 
+## HIDHIDE Configuration
+The script assumes that Steam is installed in C:\ProgramFiles(x86)\Steam. If Steam is installed elsewhere then HIDHIDE needs to be reconfigured. If Steam is installed in the default location C:\ProgramFiles(x86)\Steam, then no action is needed.
+1. Open the HIDHIDE desktop shortcut.
+2. Press the + sign, and then browse to where Steam.exe is located.
+3. Press the + sign again and then browse to where GameOverlayUI.exe and Streaming_Client.exe are located.
+4. Once done, close HIDHIDE.
+
+### Screenshot for reference
+![image](https://user-images.githubusercontent.com/98122529/201547049-34b1f28d-02a3-44d7-9e61-5ef88098c97f.png)
 
 ## OPTIONAL ITEMS
 If you want to use autologin and unbranded boot, then edit the script and look at the heading called define variables.
