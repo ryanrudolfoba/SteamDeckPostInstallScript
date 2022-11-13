@@ -9,7 +9,7 @@ I would suggest to visit the [SteamDeck guide](https://github.com/baldsealion/St
 
 It also does not install the Valve drivers due to the size of the package. Grab them from the [official Steam Deck website](https://help.steampowered.com/en/faqs/view/6121-ECCD-D643-BAA8) and install them.
 
-## What Does the Script Does and What Does it Install?
+## What the Script Does?
 1. Sets steamdeck:deck for autologin (optional, disabled by default)
 2. Configures unbranded boot (optional, disabled by default)
 3. Disables hibernate and disables password prompt from wakeup when plugged in or when running in battery
@@ -18,9 +18,23 @@ It also does not install the Valve drivers due to the size of the package. Grab 
 6. Sets the pagefile to 4GB (you can change this to whatever you want)
 7. Sets time zone to Eastern Time Zone
 8. Disables XBOX gamebar DVR to prevent pop-up warning when using SWICD
-9. Installs Visual C++ runtime, DirectX Runtime, SWICD, Tetherscript, VIGEM, HIDHIDE, RTSS, Winrar, HWINFO, ryzenadj, nircmd
-10. Automatically configures HIDHIDE to disable / hide the Neptune controller from Steam.
+9. Automatically configures HIDHIDE to disable / hide the Neptune controller from Steam.
+10. Automatically configures RTSS and HWINFO for OnScreen Display similar to SteamOS.
 11. Sets scheduled tasks for HWINFO, RTSS and Checkmate_hotkeys
+
+## What Applications / Programs Does it Install?
+This script automatically installs this programs -
+1. AIO Visual C++ runtime - [click here for more details](https://github.com/abbodi1406/vcredist)
+2. DirectX Runtime - [click here for more details](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
+3. SWICD - [click here for more details](https://github.com/mKenfenheuer/steam-deck-windows-usermode-driver)
+4. Tetherscript - [click here for more details](https://tetherscript.com/hid-driver-kit-download/)
+5. VIGEM - [click here for more details](https://github.com/ViGEm/ViGEmBus)
+6. HIDHIDE - [click here for more details](https://github.com/ViGEm/HidHide)
+7. RTSS - [click here for more details](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)
+8. Winrar - [click here for more details](https://www.win-rar.com/start.html?&L=0)
+9. HWINFO - [click here for more details](https://www.hwinfo.com/download/)
+10. ryzenadj - [click here for more details](https://github.com/FlyGoat/RyzenAdj)
+11. nircmd - [click here for more details](https://www.nirsoft.net/utils/nircmd.html)
 
 ## Pre-requisites - What is needed for this to run correctly?
 1. Make sure you are connected to the Internet before running this script or else the HIDHide install will fail.
