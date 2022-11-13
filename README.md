@@ -36,6 +36,7 @@ This automates almost all the manual tasks needed, including RTSS and HWINFO con
 The RTSS OSD will have a horizontal layout for less clutter similar to SteamOS 3.4
 
 ### Screenshot for reference
+![image](https://user-images.githubusercontent.com/98122529/201536541-5374331c-e4de-4da0-9169-f8e21e243c3f.png)
 
 
 ## OPTIONAL ITEMS
