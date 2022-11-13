@@ -83,7 +83,7 @@ xcopy %~dp0packages\nircmd c:\tools\nircmd /s /i /y
 ::
 ::
 :: hwinfo configuration
-start "" /wait schtasks /create /tn HWINFO /xml %~dp0packages\config\HWiNFO.xml
+schtasks /create /tn HWINFO /xml %~dp0packages\config\HWiNFO.xml
 ::
 :: ahk configuration. 5sec pause as the previous schtask command may not have completed yet
 timeout /t 5 > nul
