@@ -30,7 +30,7 @@ It also does not install the Valve drivers due to the size of the package. Grab 
 2. Right-click the filename called SteamDeckPostInstallScript.bat and select RunAs Administrator.
 3. Wait until the script finishes and it will reboot automatically to apply the changes.
 4. There is one thing that needs manual intervetion. When the install for Tetherscript pops-up, press the Install button.
-5. 
+
 ### Screenshot for reference
 ![tetherscript](https://user-images.githubusercontent.com/98122529/201535455-2895bf32-7a98-4acc-b4b1-e7512d543154.png)
 
