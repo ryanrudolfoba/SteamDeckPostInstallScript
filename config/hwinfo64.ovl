@@ -1,0 +1,140 @@
+[Master]
+Implementation=2
+FontFace=Unispace
+FontHeight=-9
+FontWeight=400
+ZoomRatio=2
+[Settings]
+Name=1234
+RefreshPeriod=1000
+EmbeddedImage=
+PingAddr=
+[General]
+Sources=13
+Tables=0
+Layers=1
+[Source0]
+Name=Charge Level
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Charge Level
+[Source1]
+Name=Estimated Remaining Time
+Units=mins
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Estimated Remaining Time
+[Source2]
+Name=Total CPU Usage
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=Total CPU Usage
+[Source3]
+Name=GPU D3D Usage
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU D3D Usage
+[Source4]
+Name=GPU Memory Usage
+Units=MB
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=GPU Memory Usage
+[Source5]
+Name=Physical Memory Used
+Units=MB
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Physical Memory Used
+[Source6]
+Name=Physical Memory Load
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Physical Memory Load
+[Source7]
+Name=Physical Memory Used
+Units=MB
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Physical Memory Used
+[Source8]
+Name=Physical Memory Load
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Physical Memory Load
+[Source9]
+Name=GPU D3D Memory Dedicated
+Units=MB
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=GPU D3D Memory Dedicated
+[Source10]
+Name=CPU (Tctl/Tdie)
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=CPU (Tctl/Tdie)
+[Source11]
+Name=CPU Package Power
+Units=W
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=5
+ReadingName=CPU Package Power
+[Source12]
+Name=GPU SoC Power (VDDCR_SOC)
+Units=W
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=5
+ReadingName=GPU SoC Power (VDDCR_SOC)
+[Layer0]
+Name=<S><S=60>Frametime<S><S=70><G=Frametime><S>
+Text=<APP>: <FR><S=60>FPS<S>   Frametime<S=60><G=Frametime><S>   BAT: %Charge Level%<S=60>%<S> %Estimated Remaining Time%<S=60>mins<S>   CPU: %Total CPU Usage%<S=60>%<S> %CPU Package Power%<S=60>W<S> %CPU (Tctl/Tdie)%<S=60>°<S>C   GPU: %GPU D3D Usage%<S=60>%<S> %GPU SoC Power (VDDCR_SOC)%<S=60>W<S>  V/RAM: %GPU D3D Memory Dedicated%<S=60>MB<S> %Physical Memory Used%<S=60>MB<S>
+PositionX=0
+PositionY=0
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
