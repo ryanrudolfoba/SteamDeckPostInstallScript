@@ -65,6 +65,34 @@ The script assumes that Steam is installed in C:\ProgramFiles(x86)\Steam. If Ste
 ### Screenshot for reference
 ![image](https://user-images.githubusercontent.com/98122529/201547049-34b1f28d-02a3-44d7-9e61-5ef88098c97f.png)
 
+## SWICD Keymapping Reference
+STEAM + X = CTL+WIN+O / Toggle On Screen Keyboard
+STEAM + B = ALT+F4 / Close current open window / application
+STEAM + Y = ALT+TAB / Toggle between windows
+STEAM + A = CTL+SHIFT+ESC / Launch Task Manager
+STEAM + (LEFT DPAD) = Show Current TDP
+STEAM + (UP DPAD) = Increase TDP by 1W
+STEAM + (RIGHT DPAD) = Reset TDP to default 15W
+STEAM + (DOWN DPAD) = Decrease TDP by 1W
+STEAM + L5 = Toggle Lizard Mode
+STEAM + R5 = Toggle emulation of X360 controller
+STEAM + LB = Mouse backward button
+STEAM + RB = Mouse forward button
+STEAM + (...) = Launch Windows Control Center
+(...) + LB = Decrease brightness by 10%
+(...) + RB = Increase brightness by 10%
+(...) + R5 = ALT+ENTER / Toggle App Full Screen
+(...) + L5 = F11 / Toggle Browser Full Screen
+(...) + (UP DPAD) = Toggle FSR scaling
+(...) + (LEFT DPAD) = Set Refresh Rate to 40Hz
+(...) + (DOWN DPAD) = Toggle RTSS On Screen Display
+(...) + (RIGHT DPAD) = Set Refresh Rate to 60Hz
+
+### Screenshot for reference
+![image](https://user-images.githubusercontent.com/98122529/201567368-4839d4f9-0472-4dfa-b564-47be2b07f8ec.png)
+![image](https://user-images.githubusercontent.com/98122529/201567407-f39e2a42-662e-4279-a626-183b6420855e.png)
+
+
 ## OPTIONAL ITEMS
 If you want to use autologin and unbranded boot, then edit the script and look at the heading called define variables.
 
