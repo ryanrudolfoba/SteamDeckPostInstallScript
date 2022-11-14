@@ -14,8 +14,8 @@ It also does not install the Valve drivers due to the size of the package. Grab 
 2. Configures unbranded boot (optional, disabled by default)
 3. Disables hibernate and disables password prompt from wakeup when plugged in or when running in battery
 4. Imports and sets active the SteamDeck power profile. If you dont want this power profile you can go back to the Default Balanced Profile
-5. Sets the computername to steamdeck512g (you can change this to whatever you want)
-6. Sets the pagefile to 4GB (you can change this to whatever you want)
+5. Sets the computername to steamdeck512g (you can change this to a different computername that you prefer)
+6. Sets the pagefile to 4GB (4GB (4096) seems fine, you can change this to 8GB (8192) or 16GB (16384) but based on my testing 4GB is OK)
 7. Sets time zone to Eastern Time Zone
 8. Disables XBOX gamebar DVR to prevent pop-up warning when using SWICD
 9. Automatically configures HIDHIDE to disable / hide the Neptune controller from Steam.
@@ -66,27 +66,27 @@ The script assumes that Steam is installed in C:\ProgramFiles(x86)\Steam. If Ste
 ![image](https://user-images.githubusercontent.com/98122529/201547049-34b1f28d-02a3-44d7-9e61-5ef88098c97f.png)
 
 ## SWICD Keymapping Reference
-STEAM + X = CTL+WIN+O / Toggle On Screen Keyboard
-STEAM + B = ALT+F4 / Close current open window / application
-STEAM + Y = ALT+TAB / Toggle between windows
-STEAM + A = CTL+SHIFT+ESC / Launch Task Manager
-STEAM + (LEFT DPAD) = Show Current TDP
-STEAM + (UP DPAD) = Increase TDP by 1W
-STEAM + (RIGHT DPAD) = Reset TDP to default 15W
-STEAM + (DOWN DPAD) = Decrease TDP by 1W
-STEAM + L5 = Toggle Lizard Mode
-STEAM + R5 = Toggle emulation of X360 controller
-STEAM + LB = Mouse backward button
-STEAM + RB = Mouse forward button
-STEAM + (...) = Launch Windows Control Center
-(...) + LB = Decrease brightness by 10%
-(...) + RB = Increase brightness by 10%
-(...) + R5 = ALT+ENTER / Toggle App Full Screen
-(...) + L5 = F11 / Toggle Browser Full Screen
-(...) + (UP DPAD) = Toggle FSR scaling
-(...) + (LEFT DPAD) = Set Refresh Rate to 40Hz
-(...) + (DOWN DPAD) = Toggle RTSS On Screen Display
-(...) + (RIGHT DPAD) = Set Refresh Rate to 60Hz
+**STEAM + X** = CTL+WIN+O / Toggle On Screen Keyboard  
+**STEAM + B** = ALT+F4 / Close current open window / application  
+**STEAM + Y** = ALT+TAB / Toggle between windows  
+**STEAM + A** = CTL+SHIFT+ESC / Launch Task Manager  
+**STEAM + (LEFT DPAD)** = Show Current TDP  
+**STEAM + (UP DPAD)** = Increase TDP by 1W  
+**STEAM + (RIGHT DPAD)** = Reset TDP to default 15W  
+**STEAM + (DOWN DPAD)** = Decrease TDP by 1W  
+**STEAM + L5** = Toggle Lizard Mode  
+**STEAM + R5** = Toggle emulation of X360 controller  
+**STEAM + LB** = Mouse backward button  
+**STEAM + RB** = Mouse forward button  
+**STEAM + (...)** = Launch Windows Control Center  
+**(...) + LB** = Decrease brightness by 10%  
+**(...) + RB** = Increase brightness by 10%  
+**(...) + R5** = ALT+ENTER / Toggle App Full Screen  
+**(...) + L5** = F11 / Toggle Browser Full Screen  
+**(...) + (UP DPAD)** = Toggle FSR scaling  
+**(...) + (LEFT DPAD)** = Set Refresh Rate to 40Hz  
+**(...) + (DOWN DPAD)** = Toggle RTSS On Screen Display  
+**(...) + (RIGHT DPAD)** = Set Refresh Rate to 60Hz  
 
 ### Screenshot for reference
 ![image](https://user-images.githubusercontent.com/98122529/201567368-4839d4f9-0472-4dfa-b564-47be2b07f8ec.png)
